@@ -6,7 +6,7 @@ hero:
   text: Скрипты для вашего Java-приложения
   tagline: Синтаксис Java, лёгкость Lua и песочница под вашим контролем.
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: Jumper
   actions:
     - theme: brand

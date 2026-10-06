@@ -6,7 +6,7 @@ hero:
   text: Scripts for your Java application
   tagline: The syntax of Java, the lightness of Lua, and a sandbox you control.
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: Jumper
   actions:
     - theme: brand
