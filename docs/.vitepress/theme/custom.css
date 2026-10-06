@@ -1,0 +1,24 @@
+/* the frog's green */
+:root {
+  --vp-c-brand-1: #4f8f2f;
+  --vp-c-brand-2: #5ea23a;
+  --vp-c-brand-3: #6bb647;
+  --vp-c-brand-soft: rgba(107, 182, 71, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #6bb647 30%, #2f9e8f);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #6bb64755 50%, #2f9e8f44 50%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+  --vp-c-brand-1: #8fd16a;
+  --vp-c-brand-2: #7cc457;
+  --vp-c-brand-3: #6bb647;
+  --vp-c-brand-soft: rgba(107, 182, 71, 0.16);
+}
+
+.VPHero .image-src {
+  max-width: 220px;
+  max-height: 220px;
+}
