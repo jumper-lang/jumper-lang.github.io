@@ -1,6 +1,6 @@
 # Language basics
 
-Jumper reads like Java. The differences: types are optional, there are tables and functions as values, and a script is just statements from top to bottom - no `class Main`, no `main` method.
+Jumper reads like Java. The differences: types are optional, there are tables and functions as values, and a script is just statements from top to bottom - no `class Main`, no `main` method. The full list, with the Java equivalent and the bytecode of each difference: [Differences from Java](/language/differences).
 
 ```jumper
 // a line comment

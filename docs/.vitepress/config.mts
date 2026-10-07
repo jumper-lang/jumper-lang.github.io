@@ -22,6 +22,7 @@ function sidebar(prefix: string, t: Record<string, string>): DefaultTheme.Sideba
         { text: t.modules, link: `${prefix}/language/modules` },
         { text: t.builtins, link: `${prefix}/language/built-in-functions` },
         { text: t.interop, link: `${prefix}/language/java-interop` },
+        { text: t.differences, link: `${prefix}/language/differences` },
       ],
     },
     {
@@ -48,7 +49,7 @@ function sidebar(prefix: string, t: Record<string, string>): DefaultTheme.Sideba
 const en = {
   start: 'Start', intro: 'Introduction', gettingStarted: 'Getting started',
   language: 'Language', basics: 'Basics', tables: 'Tables and arrays', functions: 'Functions', classes: 'Classes',
-  modules: 'Modules', builtins: 'Built-in functions', interop: 'Java interop',
+  modules: 'Modules', builtins: 'Built-in functions', interop: 'Java interop', differences: 'Differences from Java',
   java: 'Embedding in Java', embedding: 'Embedding', configs: 'Configs',
   security: 'Security and hosts', policies: 'Access policies', hosts: 'Hosts',
   tools: 'Tools', toolsPage: 'CLI, editors, LSP',
@@ -57,7 +58,7 @@ const en = {
 const ru = {
   start: 'Начало', intro: 'Введение', gettingStarted: 'Быстрый старт',
   language: 'Язык', basics: 'Основы', tables: 'Таблицы и массивы', functions: 'Функции', classes: 'Классы',
-  modules: 'Модули', builtins: 'Встроенные функции', interop: 'Работа с Java',
+  modules: 'Модули', builtins: 'Встроенные функции', interop: 'Работа с Java', differences: 'Отличия от Java',
   java: 'Встраивание в Java', embedding: 'Встраивание', configs: 'Конфиги',
   security: 'Безопасность и хосты', policies: 'Политики доступа', hosts: 'Хосты',
   tools: 'Инструменты', toolsPage: 'CLI, редакторы, LSP',
